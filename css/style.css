@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+* {
+  -webkit-user-drag: none;
+  -ms-touch-select: unset;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Tajawal;
+  font-size: 20px;
+}
+
+input {
+  font-family: Tajawal;
+}
+
+.navbar {
+  background-color: #283949;
+  border-top: 2px solid #EBC528;
+}
+
+.navbar button {
+  color: #EBC528;
+  background-color: #EBC528;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+  color: #EBC528;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-right: 60px;
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #EBC528;
+  background-color: #21303f;
+  border-radius: 7px;
+}
+
+.nav-link i {
+  color: #EBC528;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background: url('../img/wind.webp');
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;     
+}
+
+header div {
+  margin-top: 60px;
+  background: transparent;
+}
+
+header div span {
+  color: #f7c80f;
+  font-size: 32px;
+}
+
+header div h1 {
+  color: #f7c80f;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+header div p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+header div p a {
+  display: ruby-text;
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 0;
+  background-color: #EBC528;
+  color: #21303f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header div p a:hover {
+  background-color: #EBC528;
+  color: #21303f;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+header div p a i {
+  margin: 0;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  color: #21303f;
+  text-decoration: none;
+}
+
+#whats {
+  top: 150px;
+  left: 10px;
+  position: fixed;
+  border-left: 0px solid #218012;
+  background-color: transparent;
+  z-index: 100;
+}
+
+#whats a {
+  display: flex;
+  align-items: center;
+}
+
+#whats a span {
+  padding: 0 5px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+#tel {
+  top: 230px;
+  left: 10px;
+  position: fixed;
+  border-left: 0px solid #218012;
+  background-color: transparent;
+  z-index: 100;
+}
+
+#tel a {
+  display: flex;
+  align-items: center;
+}
+
+#tel a span {
+  padding: 0 5px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.site {
+  margin: 0;
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 16px;
+  background-color: #008b8b;
+  color: #ffffff;
+}
+
+content {
+  margin-top: 20px;
+  border: 0;
+  text-align: center;
+}
+
+content hr {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%;
+  color: #21303f;
+}
+
+content .serv {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  border: 0px solid #eeeeee;
+  border-radius: 5px;
+  margin: auto;
+  margin-right: 5%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+content .serv i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 128px;
+  color: #008b8b;
+}
+
+content .serv h4 {
+  font-weight: bold;
+  color: #21303f;
+  padding: 5px;
+}
+
+content .serv span {
+  padding: 10px;
+  color: #21303f;
+  text-align: justify;
+}
+
+content h2 {
+  color: #21303f;
+}
+
+content .des{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+content .des h2 {
+  font-weight: bold;
+  color: #008b8b;
+  margin-bottom: 20px;
+}
+
+content .des p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+content .ourworks {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+content .ourworks h2 {
+  color: #008b8b;
+  text-decoration: underline;
+}
+
+content .ourworks p {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+content .ourworks img {
+  margin: 5px;
+  width: 770px;
+  height: 480px;
+  border: 0;
+}
+
+content .clnt {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+content .clnt h2 {
+  margin-bottom: 40px;
+  color: #008b8b;
+  text-decoration: underline;
+}
+
+content .clnt p {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+content .clnt img {
+  margin: 5px;
+  width: 732px;
+  height: 604px;
+  border: 0;
+}
+
+content .about {
+  margin: auto;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+content .about h2 {
+  margin-bottom: 40px;
+  color: #008b8b;
+  text-decoration: underline;
+}
+
+content .about p {
+  margin: auto;
+  width: 80%;
+  font-weight: bold;
+  text-align: justify;
+}
+
+content .about p a {
+  text-decoration: none;
+}
+
+footer {
+  height: 90px;
+  background-color: #21303f;
+}
+
+footer p {
+  padding-top: 30px;
+  background-color: #21303f;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 728px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Tajawal;
+    font-size: 14px;
+  }
+  
+  input {
+    font-family: Tajawal;
+  }
+
+  .navbar {
+    background-color: #283949;
+    border-top: 2px solid #EBC528;
+  }
+  
+  .navbar button {
+    color: #EBC528;
+    background-color: #EBC528;
+  }
+  
+  .navbar-brand {
+    margin-right: 20px;
+    color: #EBC528;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #EBC528;
+    background-color: #21303f;
+    border-radius: 7px;
+  }
+  
+  .nav-link i {
+    color: #EBC528;
+  }
+  
+  header {
+    margin: 0;
+    padding: 0;
+    background: url('../img/wind.webp');
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;     
+  }
+  
+  header div {
+    margin-top: 60px;
+    background: transparent;
+  }
+  
+  header div span {
+    color: #f7c80f;
+    font-size: 22px;
+  }
+  
+  header div h1 {
+    color: #f7c80f;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  header div p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  header div p a {
+    align-content: center;
+    margin: 5px;
+    padding: 2px;
+    padding-top: 9px;
+    padding-left: 0;
+    background-color: #EBC528;
+    color: #21303f;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  header div p a:hover {
+    background-color: #EBC528;
+    color: #21303f;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  
+  header div p a i {
+    align-content: center;
+    margin: 0;
+    padding: 2px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+    color: #21303f;
+    text-decoration: none;
+  }
+  
+  .site {
+    margin: 0;
+    padding: 10px;
+    padding-right: 3px;
+    font-size: 14px;
+    background-color: #008b8b;
+    color: #ffffff;
+  }
+  
+  content {
+    margin-top: 20px;
+    border: 0;
+    text-align: center;
+  }
+  
+  content hr {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    color: #21303f;
+  }
+  
+  content .serv {
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    border: 0px solid #eeeeee;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  content .serv i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 96px;
+    color: #008b8b;
+  }
+  
+  content .serv img {
+    width: 319px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  content .serv h4 {
+    font-weight: bold;
+    color: #21303f;
+    padding: 5px;
+  }
+  
+  content .serv span {
+    padding: 10px;
+    color: #21303f;
+    text-align: justify;
+  }
+  
+  content h2 {
+    color: #21303f;
+  }
+  
+  content .des{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 95%;
+  }
+  
+  content .des h2 {
+    font-weight: bold;
+    color: #008b8b;
+    margin-bottom: 20px;
+  }
+  
+  content .des p {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  content .ourworks {
+    margin: auto;
+    width: 95%;
+    text-align: center;
+  }
+  
+  content .ourworks h2 {
+    color: #008b8b;
+    text-decoration: underline;
+  }
+  
+  content .ourworks p {
+    margin: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+  }
+  
+  content .ourworks img {
+    margin: 5px;
+    width: 253px;
+    height: 286px;
+    border: 0;
+  }
+
+  content .ourworks video {
+    margin: 5px;
+    width: 250px;
+    border: 0;
+  }
+  
+  content .clnt {
+    margin: auto;
+    width: 95%;
+    text-align: center;
+  }
+  
+  content .clnt h2 {
+    margin-bottom: 20px;
+    color: #008b8b;
+    text-decoration: underline;
+  }
+  
+  content .clnt p {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  content .clnt img {
+    margin: 0;
+    width: 329px;
+    height: 289;
+    border: 0;
+  }
+  
+  content .about {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 95%;
+  }
+  
+  content .about h2 {
+    margin-bottom: 20px;
+    color: #008b8b;
+    text-decoration: underline;
+  }
+  
+  content .about p {
+    margin: auto;
+    width: 98%;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  content .about p a {
+    text-decoration: none;
+  }
+   
+  footer {
+    height: 90px;
+    background-color: #21303f;
+  }
+  
+  footer p {
+    padding-top: 30px;
+    background-color: #21303f;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+  }
+}
